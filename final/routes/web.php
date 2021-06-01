@@ -16,4 +16,4 @@ Route::get('/', function () {
 });
 
 
-Route::get('/db', UserController::class);
+Route::get('/user', 'UserController@index');
