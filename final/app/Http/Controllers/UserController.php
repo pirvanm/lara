@@ -9,6 +9,8 @@ class UserController extends Controller
 {
     public function index()
     {
-        dd('index');;
+        $users = DB::table('orders')->get();
+        dd($users);
+        return view('user.index', ['users' => $users]);
     }
 }
