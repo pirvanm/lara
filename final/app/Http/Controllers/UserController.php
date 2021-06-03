@@ -10,7 +10,7 @@ class UserController extends Controller
     public function index()
     {
         $users = DB::table('orders')->get();
-        dd($users);
-        return view('user.index', ['users' => $users]);
+        // dd($users->first());
+        return view('users.index', ['users' => $users]);
     }
 }
