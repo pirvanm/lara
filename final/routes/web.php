@@ -17,3 +17,4 @@ Route::get('/', function () {
 
 
 Route::get('/user', 'UserController@index');
+Route::get('/adauga', 'UserController@adaugaComenzi');
