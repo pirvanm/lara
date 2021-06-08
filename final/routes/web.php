@@ -12,9 +12,9 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('homepage');
 });
 
 
-Route::get('/user', 'UserController@index');
+Route::get('/comenzi', 'UserController@index');
 Route::get('/adauga', 'UserController@adaugaComenzi');
