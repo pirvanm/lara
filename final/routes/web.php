@@ -18,3 +18,4 @@ Route::get('/', function () {
 
 Route::get('/comenzi', 'UserController@index');
 Route::get('/adauga', 'UserController@adaugaComenzi');
+Route::post('/date_formular', 'UserController@adaugaFormular');
