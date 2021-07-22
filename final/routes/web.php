@@ -11,10 +11,21 @@
 |
 */
 
+// doar pentru html, kiss 
+Route::get('/ruta1', function () {
+    return view('pages.p1');
+});
+
+Route::get('/ruta2', function () {
+    return view('pages.p2');
+});
+
+Route::get('/ruta3', function () {
+    return view('pages.p3');
+});
 Route::get('/', function () {
     return view('homepage');
 });
-
 
 Route::get('/comenzi', 'UserController@index');
 Route::get('/adauga', 'UserController@adaugaComenzi');
