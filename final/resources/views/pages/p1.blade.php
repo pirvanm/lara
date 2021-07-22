@@ -1,1 +1,2 @@
-pagina 1
+@include('pages.navigation')
+
