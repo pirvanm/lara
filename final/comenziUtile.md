@@ -15,15 +15,18 @@ locahost::3000
 
 #5 Creare fisier controller(concept in oop )
 php artisan make:controller OrderController
+app/Http/Controllers 
 
 #5.1 controller cu functii in el
 php artisan make:controller UsersController --resource
 dupa generare fisierul UsersController.php va si gasit in 
 app/Http/Controllers
+
 #6 creare migrarii
 php artisan make:migration createOrderProducts
 dupa ce ai create migrare
 fisierul va fi gasit in 
 app/database/migrations
+
 #7 cum pui in mysql o migrate
 php artisan migrate
